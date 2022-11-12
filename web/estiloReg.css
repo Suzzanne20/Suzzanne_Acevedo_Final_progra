@@ -1,0 +1,47 @@
+
+body{
+ background-color: midnightblue
+}
+
+
+body{
+    background: url(https://i.pinimg.com/originals/c8/27/f7/c827f79c6635dbba80f1da34692a3a00.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.princ{
+    margin:0 auto;
+    margin-top: 10%;
+    padding: 0%;
+}
+
+.modal-content{
+    background-color: rgb(255, 255, 255);
+    opacity: .95;
+    box-shadow: 0px 0px 7px black;
+}
+
+.promo{
+
+    margin-left: 30rem;
+
+}
+
+.content{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(2, auto);
+    
+}
+.content .main{
+    grid-column: span 3;  
+    margin-left: 15%;
+}
+
+
+.aside{
+    margin-top: 5%;
+    margin-right: 15%;
+    grid-column: span 4;
+}
