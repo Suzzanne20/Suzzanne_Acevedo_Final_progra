@@ -19,7 +19,7 @@ function comeDom (){
     pass.value='';
 }
 
-/*
+
 function sendData(){
 	const XHR = new XMLHttpRequest();
 	  var formData = new URLSearchParams(new FormData(document.getElementById('formu'))).toString();
@@ -31,7 +31,7 @@ function sendData(){
             console.log("response => " + XHR.response);
             document.getElementById('regTab').innerHTML=XHR.response; susMsj('Guardado exitosamente'); clearFormu();}};
           XHR.send(formData);	
-}*/
+}
 /*
 function sendDataEdit(){
 	const XHR = new XMLHttpRequest();
