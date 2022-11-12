@@ -41,7 +41,7 @@ public class LibroVec {
     }
     
     public boolean saveCliBD(Libro libro){        
-        String sql = "INSERT INTO prueba.libro(modelo, tamaño_pantalla, cantidad_ram, almacenamiento, sistema_operativo, marca_codigo)";
+        String sql = "INSERT INTO final_progra.computadora(modelo, tamaño_pantalla, cantidad_ram, almacenamiento, sistema_operativo, marca_codigo)";
              sql += " VALUES( ?,?,?,?,?,?)"; 
         try{
             starConex();

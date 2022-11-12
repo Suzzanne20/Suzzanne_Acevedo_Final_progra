@@ -1,7 +1,7 @@
 /* global Swal */
 
 window.onload=function(){
-    alert("verificando");   
+    alert("Bienvenido");   
 }
 
 function init(){

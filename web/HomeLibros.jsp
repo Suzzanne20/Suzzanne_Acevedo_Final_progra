@@ -72,7 +72,7 @@
             <table class="table table-dark table-hover">
                     <thead><tr>
                             <td>MODELO</td>
-                            <td>PANTALLA</td>  
+                            <td>PANTALLA</td>   
                             <td>RAM</td>
                             <td>ALMACENAMIENTO</td>
                             <td>SISTEMA</td>
